@@ -1,7 +1,7 @@
 import design.hamu.Dependencies
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.12.10",
+  scalaVersion := "2.13.2",
   organization := "design.hamu",
   version := "0.0.1",
   scalacOptions := Seq("-Xlint", "-Ywarn-unused", "-deprecation", "-Ymacro-annotations"),

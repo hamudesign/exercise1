@@ -9,7 +9,7 @@ object Dependencies {
   }
 
   object Cats {
-    private val version = "2.0.0"
+    private val version = "2.1.1"
     val core = "org.typelevel" %% "cats-core" % version
     val effect = "org.typelevel" %% "cats-effect" % version
   }
@@ -21,7 +21,7 @@ object Dependencies {
   }
 
   object Scalatest {
-    private val version = "3.1.2"
+    private val version = "3.2.0"
     val core: ModuleID = "org.scalatest" %% "scalatest" % version
   }
 }
