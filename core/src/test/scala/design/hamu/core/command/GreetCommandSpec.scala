@@ -1,5 +1,6 @@
-package design.hamu.core.commands
+package design.hamu.core.command
 
+import design.hamu.core.command.GreetCommand
 import org.scalatest.matchers.must.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 
