@@ -29,3 +29,6 @@ jobs:
       - run:
           name: Test
           command: cat /dev/null | sbt test
+      - run:
+          name: Coverage
+          command: cat /dev/null | sbt coverageReport

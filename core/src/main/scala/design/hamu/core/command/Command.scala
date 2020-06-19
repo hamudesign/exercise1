@@ -5,6 +5,7 @@ trait Command {
 }
 
 object Command {
+
   def apply(string: String): Command = string match {
     case "greet" => GreetCommand
   }
