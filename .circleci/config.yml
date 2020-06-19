@@ -28,7 +28,7 @@ jobs:
           command: cat /dev/null | sbt dependencyUpdates
       - run:
           name: Test
-          command: cat /dev/null | sbt test
+          command: cat /dev/null | sbt coverage test
       - run:
           name: Coverage
           command: cat /dev/null | sbt coverageReport

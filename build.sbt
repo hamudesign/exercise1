@@ -5,6 +5,7 @@ lazy val commonSettings = Seq(
   organization := "design.hamu",
   version := "0.0.1",
   scalacOptions := Seq("-Xlint", "-Ywarn-unused", "-deprecation", "-Ymacro-annotations"),
+  dependencyUpdatesFilter -= moduleFilter(name = "scala-library"),
   dependencyUpdatesFailBuild := true
 )
 
