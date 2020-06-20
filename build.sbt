@@ -11,8 +11,7 @@ lazy val commonSettings = Seq(
 
 lazy val publishSettings = Seq(
   coverageMinimum := 20,
-  coverageFailOnMinimum := true,
-  scalacOptions := Seq("-Ypartial-unification", "-deprecation")
+  coverageFailOnMinimum := true
 )
 
 lazy val root = project
