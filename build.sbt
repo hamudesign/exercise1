@@ -4,15 +4,14 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.12.11",
   organization := "design.hamu",
   version := "0.0.1",
-  scalacOptions := Seq("-Xlint", "-Ywarn-unused", "-deprecation", "-Ymacro-annotations"),
+  scalacOptions := Seq("-Ypartial-unification", "-deprecation"),
   dependencyUpdatesFilter -= moduleFilter(name = "scala-library"),
   dependencyUpdatesFailBuild := true
 )
 
 lazy val publishSettings = Seq(
   coverageMinimum := 20,
-  coverageFailOnMinimum := true,
-  scalacOptions := Seq("-Ypartial-unification", "-deprecation")
+  coverageFailOnMinimum := true
 )
 
 lazy val root = project
