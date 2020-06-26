@@ -9,5 +9,6 @@ object Command {
   def apply(string: String): Command = string match {
     case "greet" => GreetCommand
     case "dec-to-bin" => DecimalToBinaryCommand
+    case "fib" => FibCommand
   }
 }
