@@ -1,2 +1,18 @@
+# scala
 *.class
 *.log
+
+# apple
+.DS_Store
+
+# sbt
+.cache
+.history
+dist/*
+target/
+
+# intellij
+.idea/**
+
+# metals
+**/.metals
